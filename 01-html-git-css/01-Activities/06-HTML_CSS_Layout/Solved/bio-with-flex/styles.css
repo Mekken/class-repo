@@ -1,0 +1,33 @@
+.main {
+  padding: 25px;
+}
+
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 36px;
+}
+
+.content {
+  display: flex;
+  background: rgba(0,0,0,.05);
+  padding: 50px;
+}
+
+.left {
+  flex: 1.5;
+}
+
+.left-content {
+  display: flex;
+}
+
+.right {
+  flex: 1;
+}
+
+.bio {
+  margin-left: 20px;
+}
