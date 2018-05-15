@@ -1,0 +1,23 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+.thought1 {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+}
+
+.thought2 {
+    font-family: "Oswald", sans-serif;
+    line-height: 15px;
+ }
+
+.thought3 {
+    font-family: "Titan One", cursive;
+ }
+
+ .fa-motorcycle {
+    font-size: 95px;
+    margin: 0 auto; 
+ }

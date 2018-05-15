@@ -1,0 +1,34 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+.thought1 {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 12px;
+}
+
+.thought2 {
+    font-family: "Oswald", sans-serif;
+    line-height: 15px;
+ }
+
+.thought3 {
+    font-family: "Titan One", cursive;
+ }
+
+a {
+    color: blue;
+}
+
+a:focus {
+    outline-color: darkblue;
+}
+
+a:hover {
+    text-shadow: 1px 1px peru;
+}
+
+a:active {
+    color: red;
+}

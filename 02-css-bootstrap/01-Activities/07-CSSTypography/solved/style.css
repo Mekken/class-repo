@@ -1,0 +1,16 @@
+.boldText {
+    font-weight: bold;
+}
+
+.enlargeFont {
+    font-size: 15px;
+}
+
+.lineHeight {
+    line-height: 55px;  
+    letter-spacing: 1px;
+}
+
+.fontFamily {
+    font-family: sans-serif;
+}
