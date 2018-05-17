@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Favorite Artists</h1>
+    </head>
+    <body>
+        <script tpye="text/javascript">
+            var artists = ['Kendrick Lamar','J Cole','E-40','ASAP Ferg'];
+            var name = prompt("Who's your favorite Artist?");
+            
+            artists = artists.toLocaleString().toLowerCase().split(',');
+            if(artists.indexOf(name.toLowerCase()) != -1){
+                alert("YEAH I LOVE THAT DUDE!");
+            }
+            else
+            {
+                alert("Yeah they alright...");
+            }
+
+        </script>  
+    </body>
+</html>

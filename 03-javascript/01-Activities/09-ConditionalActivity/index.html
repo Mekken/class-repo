@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            var confirmEatSteak = false;
+            var steakSandwichMsg = "Here's a Steak Sandwich!";
+            var stirFryMsg = "Here's a Tofu Stir-Fry!";
+            var currentYr = 2018;
+            var birthYr = 0;
+
+            confirmEatSteak = confirm("Do you eat Steak?");
+
+            if(confirmEatSteak){
+                document.write(steakSandwichMsg);
+                document.write("<br><img src='https://img.taste.com.au/FLzevmBs/taste/2016/11/smokey-bbq-steak-sandwich-109693-1.jpeg' width=550 height=400></img>");
+            }
+            else
+            {
+                document.write(stirFryMsg);
+                document.write("<br><img src='https://pinchofyum.com/wp-content/uploads/Honey-Ginger-Tofu-Veggie-Stir-Fry-53-Square.jpg' width=550 height=400></img>");
+            }
+
+            birthYr = prompt("What year were you born?");
+            var age = currentYr - birthYr;
+            if(age < 21)
+                alert("No Sake for You!");
+        </script>
+    </body>
+</html>
